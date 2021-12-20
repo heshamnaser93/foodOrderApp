@@ -29,7 +29,7 @@ const DUMMY_MEALS = [
   },
 ];
 
-const AvilableMeals = () => {
+const AvailableMeals = () => {
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealItem
       id={meal.id}
@@ -49,4 +49,4 @@ const AvilableMeals = () => {
   );
 };
 
-export default AvilableMeals;
+export default AvailableMeals;
